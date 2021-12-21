@@ -95,5 +95,80 @@
 // Traversing DOM ......
 ///////////////////////////////////
 //let val;
-val = document.querySelector(".product-collection");
-console.log(val);
+// val = document.querySelector(".product-collection");
+// val = val.children[0]
+// .nextElementSibling
+// .nextElementSibling
+// .parentElement
+// .parentElement.parentElement;
+// val = val.children[0].nextSibling;
+//val = val.children;
+// console.log(val);
+
+// Interacting and child Nodes.
+// // 1 - Element;
+// // 2 - Attribute (deprecated);
+// // 3 - Text node;
+// // 8 - comment;
+// // 9 - Document itself;
+// // 10 - Doctype;
+ //val = document.querySelector(".product-collection");
+//  val = val.childNodes[1].nodeName;
+//val = val.childNodes[1].nodeType;
+// if(val.childNodes[1].nodeType !== 3) {
+//     val.childNodes[1].classList.add("MyClass");
+// }
+//console.log(val);
+
+
+
+// Creating Element.
+// const ul = document.querySelector("ul");
+// const li = document.createElement('li');
+// li.className = "product-collection-item";
+// li.appendChild(document.createTextNode("MyItem"));
+//ul.appendChild(li); // last e li add hobe.
+//ul.prepend(li); // first e li add hobe.
+//console.log(ul);
+
+
+// Replacing and removing element.
+
+// const oldHeading = document.querySelector(".h1");
+// const newHeading = document.createElement("h1");
+// const container = document.querySelector(".container");
+// container.replaceChild(newHeading,oldHeading);
+// oldHeading.replaceWith(newHeading);
+// const list = document.querySelectorAll('.product-collection-item');
+// const list = document.querySelector('ul.product-collection-item');
+// list.lastElementChild.remove();
+//    list.removeChild();
+// console.log(ul);
+// console.log(list);
+// console.log(list.lastElementChild);
+// console.log(list.lastChild); // Wrong Write Console System Now New.
+
+// Event Introduction.....
+// The Syntax .....
+// To add a listener, we use a method called addEventListener .....
+
+// element.addEventListener (type, functionToCall);
+
+// var button = document.querySelector("button");
+// let button = document.querySelector("button");
+// const button = document.querySelector("button");
+
+// button.addEventListener("click", function(){
+//     console.log("SOMEONE CLICKED THE BUTTON!")
+// });
+
+
+
+
+
+
+
+
+
+
+
